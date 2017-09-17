@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	overflow-x: hidden;
+	width: 100vw;
+	height: 100vh;
+}
+
+navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 80px;
+	background: linear-gradient(180deg, #E8530C, 60%, #FF9E09);
+}
+
+avatar {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	border-radius: 50%;
+	border: solid 1.5px white;
+	background-image: url("../assets/profile.jpg");
+	height: 60px;
+	width: 60px;
+	background-size: 60px 60px; 
+}
+
+content {
+	position: relative;
+	margin-top: 80px;
+	width: 100vw;
+	display: block;
+}
+
+infobar {
+	position: relative;
+	width: 100%;
+	height: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: grey;
+	display: inline-block;
+}
+
+infobar .barContainer {
+	position: absolute;
+	background-color: midnightblue;
+	height: 100%;
+	width: 70%;
+	left: 30%;
+	top: 0;
+	display: block;
+}
+infobar .barContainer bar {
+	position: absolute;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	height: 70%;
+	background: green;
+	top: 15%;
+	border-radius: 5px;
+}
+
+
+infobar info {
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: yellow;
+}

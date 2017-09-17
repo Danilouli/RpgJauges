@@ -5,16 +5,38 @@
 	</head>
 	<body>
 		<navbar>
-			<avatar><img src=""></avatar>
+			<avatar></avatar>
 			<name></name>
 			<gender></gender>
 			<level></level>
 		</navbar>
 		<content>
-			<bar id="lifeBar"></bar>
-			<bar id="hungerBar"></bar>
-			<bar id="thirstbar"></bar>
-			<bar id="stressBar"></bar>
+			<infobar>
+				<info id="lifeInfo">Life</info>
+				<div class="barContainer">
+					<bar id="lifeBar">
+						<ratio>100%</ratio>	
+					</bar> 					
+				</div>
+			</infobar>	
+			<infobar>
+				<info id="hungerInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</info>
+				<div class="barContainer">
+					<bar id="hungerBar"></bar>					
+				</div>
+			</infobar>	
+			<infobar>
+				<info id="thirstInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</info>
+				<div class="barContainer">
+					<bar id="thirstbar"></bar>					
+				</div>
+			</infobar>	
+			<infobar>
+				<info id="stressInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</info>
+				<div class="barContainer">
+					<bar id="stressBar"></bar>				
+				</div>
+			</infobar>	
 		</content>
 	</body>
 	<script src="js/index.js"></script>
