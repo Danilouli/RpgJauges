@@ -17,6 +17,7 @@ navbar {
 	width: 100vw;
 	height: 80px;
 	background: linear-gradient(180deg, #000000, 60%, #000000);
+	z-index: 99;
 }
 
 avatar {
