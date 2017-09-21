@@ -16,7 +16,7 @@ navbar {
 	left: 0;
 	width: 100vw;
 	height: 80px;
-	background: linear-gradient(180deg, #E8530C, 60%, #FF9E09);
+	background: linear-gradient(180deg, #000000, 60%, #000000);
 }
 
 avatar {
@@ -30,6 +30,7 @@ avatar {
 	width: 60px;
 	background-size: 60px 60px; 
 }
+
 
 content {
 	position: relative;
@@ -50,7 +51,7 @@ infobar {
 
 infobar .barContainer {
 	position: absolute;
-	background-color: midnightblue;
+	background-color: rgb(60,66,69);
 	height: 100%;
 	width: 70%;
 	left: 30%;
@@ -63,7 +64,7 @@ infobar .barContainer bar {
 	margin-left: 2.5%;
 	margin-right: 2.5%;
 	height: 70%;
-	background: green;
+	background: rgb(19,184,20);
 	top: 15%;
 	border-radius: 5px;
 }
@@ -77,5 +78,21 @@ infobar info {
 	top: 0;
 	padding-left: 30px;
 	padding-right: 30px;
-	background-color: yellow;
+	background-color: rgb(164,204,232);
+	font-size: 50px;
+	font-family: "Lucida Console"
+}
+
+infobar img {
+	height: 50px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+navbar name {
+	position: absolute;
+	color: white;
+	top: 35px;
+	left: 100px;
+	font-family: "Lucida Console"
 }
