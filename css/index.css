@@ -67,6 +67,17 @@ infobar .barContainer bar {
 	background: rgb(19,184,20);
 	top: 15%;
 	border-radius: 5px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	font-family: "Lucida Console";
+	box-shadow: 0 0 15px rgba(120,120,120,0.7);
+}
+ratio {
+	position: absolute;
+	text-align: center;
+	margin-top: 20px;
 }
 
 
@@ -87,6 +98,16 @@ infobar img {
 	height: 50px;
 	margin-left: 30px;
 	margin-top: 20px;
+	transition: transform 2s;
+	box-shadow: 0 0 15px rgba(120,120,120,0.7);
+	border-radius: 50%;
+}
+infobar img:hover {
+	height: 50px;
+	margin-left: 30px;
+	margin-top: 20px;
+	transform: rotate(180deg);
+	cursor: pointer;
 }
 
 navbar name {
@@ -94,5 +115,9 @@ navbar name {
 	color: white;
 	top: 35px;
 	left: 100px;
-	font-family: "Lucida Console"
+	font-family: "Lucida Console";
+	letter-spacing: 0.5px;
 }
+
+
+
