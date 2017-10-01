@@ -16,7 +16,27 @@ navbar {
 	left: 0;
 	width: 100vw;
 	height: 80px;
-	background: linear-gradient(180deg, #000000, 60%, #000000);
+	background-color: black;
+/*	animation-duration: 3s;
+	animation-name: titillage;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;*/
+	/*background: linear-gradient(180deg, #000000, 60%, #000000);*/
+	transition: background-color 2s;
+	z-index: 99;
+}
+navbar:hover {
+	background-color: grey;
+	/*background: linear-gradient(180deg, #222, 60%, #999);*/
+}
+@keyframes titillage {
+	from {
+		top: 0;
+	}
+	to {
+		top: 90;
+	}
 }
 
 avatar {
@@ -30,7 +50,6 @@ avatar {
 	width: 60px;
 	background-size: 60px 60px; 
 }
-
 
 content {
 	position: relative;
@@ -98,7 +117,7 @@ infobar img {
 	height: 50px;
 	margin-left: 30px;
 	margin-top: 20px;
-	transition: transform 2s;
+	transition: transform 1s;
 	box-shadow: 0 0 15px rgba(120,120,120,0.7);
 	border-radius: 50%;
 }
@@ -106,7 +125,7 @@ infobar img:hover {
 	height: 50px;
 	margin-left: 30px;
 	margin-top: 20px;
-	transform: rotate(180deg);
+	transform: skew(30deg);
 	cursor: pointer;
 }
 
